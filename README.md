@@ -8,4 +8,7 @@ Akan name generator is a simple web application that generate's a user's Akan na
  It helps users discover their Akan name using traditional Akan naming conventions.
 
  ## Features
- 
+  Users input a day of the week and select their gender.
+- Akan name is generated based on traditional Akan naming conventions.
+- Simple interface with real-time name generation.
+- Handles invalid input gracefully with error messages.
