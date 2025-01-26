@@ -65,7 +65,7 @@ Contributions are welcome! To contribute:
 # Licencse
 MIT License
 
-Copyright (c) 2025 John Doe
+Copyright (c) 2025 Silvester Mburu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
