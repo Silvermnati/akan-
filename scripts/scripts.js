@@ -24,5 +24,5 @@ function generateAkanName() {
     document.getElementById("result").innerText =
       "Invalid input. Please check the day or gender.";
   }
-  event.prevent default behaviour
+
 }
