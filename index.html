@@ -11,8 +11,24 @@
     <script src="./scripts/scripts.js"></script>
     <h1>Akan Name Generator</h1>
     <form id="akanForm">
+        <label class="day-select">Select Day</label>
         <label for="day">Day</label>
-        <input type="number" {(minimun 1), maximum (31)}
+        <input type="number" id="day" name="select day" min="1" max="31" required>
+
+        <label class="month-select">Select Month</label>
+        <label for="month">Month</label>
+        <input type="number" id="month" name="select-month" min="o" max="12" required>
+
+        <label class="gender-label">Select Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+
+        <label class="year-select">Select year</label>
+
+
+
     </form>
     </div>
        </html>
