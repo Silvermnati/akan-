@@ -9,13 +9,13 @@ document
     const gender = document.querySelector('input[name="gender"]:checked').value;
 
     const calculateDayOfWeek = (day, month, year) => {
-   const date = new Date(year, month - 1, day);
+   const date = new Date(year, month, day);
       return date.getDay();
     };
 
     const akanNames = {
-      male: ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Kofi", "Kwame", "Kwesi"],
-      female: ["Akosua", "Adwoa", "Abena", "Akua", "Afia", "Ama", "Akosua"],
+      male: ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"],
+      female: ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"],
     };
 
     const dayOfWeek = calculateDayOfWeek(day, month, year);
