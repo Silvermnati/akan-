@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+     <script defer src="./scripts/scripts.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-    <script src="./scripts/scripts.js"></script>
     <h1>Akan Name Generator</h1>
     <form id="akanForm">
         <label class="day-select"></label>
@@ -17,7 +17,7 @@
 
         <label class="month-select"></label>
         <label for="month">Month</label>
-        <input type="number" id="month" name="select-month" min="0" max="12" required>
+        <input type="number" id="month" name="select-month" min="1" max="12" required>
 
         <label class="year-select"></label>
         <label for="year"> year</label>
@@ -30,7 +30,7 @@
         <label for="female">Female</label>
         <input type="radio" id="female" name="gender" value="female" required>
 
-        <button  onclick="submit(generate-akan-name)">submit</button>
+        <button  onclick="submit(generateAkanName)">submit</button>
         <div id="result"></div>
     </form>
     </div>
